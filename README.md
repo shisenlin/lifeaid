@@ -1,2 +1,29 @@
 # lifeaid
 生活助手
+一、pom.xml文件导入jar包：
+	1、javax-servlet-api
+	2、spring核心包：
+		spring-core、spring-context、spring-context-support、spring-tx、
+		spring-webmvc、spring-orm、
+	3、mybatis所需jar包：
+		mybatis、mybatis-spring（与spring整合包）
+	4、数据源：
+		druid
+	5、安全框架Apache Shiro所需的jar包：
+		shiro-core、shiro-ehcache、shiro-web、shiro-spring
+	6、数据库连接jar包：
+		mysql-connector-java
+	7、json解析工具包：
+		jackson-core-asl、jackson-mapper-asl
+	8、视图框架velocity：
+		velocity、velocity-tools
+	9、jstl标签库：
+		jstl
+	10、excel导入导出的jar包（可选）：
+		poi、poi-ooxml
+	11、log4j的jar包：
+		log4j、commons-logging、slf4j-log4j12
+	12、上传文件需要的jar（可选）：
+		commons-io、commons-fileupload
+	13、发送邮件需要的jar（可选）：
+		mail
